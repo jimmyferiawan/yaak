@@ -5,8 +5,8 @@
   "private": true,
   "description": "Import API specifications from OpenAPI/Swagger format",
   "scripts": {
-    "build": "yaakcli build",
-    "dev": "yaakcli dev",
+    "build": "node init && yaakcli build",
+    "dev": "node init && yaakcli dev",
     "test": "vp test --run tests",
     "test:roundtrip": "node tests/roundtrip.mjs"
   },

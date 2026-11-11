@@ -5,8 +5,8 @@
   "private": true,
   "description": "Template functions for dealing with timestamps",
   "scripts": {
-    "build": "yaakcli build",
-    "dev": "yaakcli dev",
+    "build": "node init && yaakcli build",
+    "dev": "node init && yaakcli dev",
     "test": "vp test --run tests"
   },
   "dependencies": {

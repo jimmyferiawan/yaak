@@ -10,7 +10,7 @@
     "directory": "plugins/action-send-folder"
   },
   "scripts": {
-    "build": "yaakcli build",
-    "dev": "yaakcli dev"
+    "build": "node init && yaakcli build",
+    "dev": "node init && yaakcli dev"
   }
 }

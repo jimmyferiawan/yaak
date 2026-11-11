@@ -6,8 +6,8 @@
   "description": "Import environments from Postman",
   "main": "./build/index.js",
   "scripts": {
-    "build": "yaakcli build",
-    "dev": "yaakcli dev",
+    "build": "node init && yaakcli build",
+    "dev": "node init && yaakcli dev",
     "test": "vp test --run tests"
   }
 }

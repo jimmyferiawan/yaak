@@ -5,7 +5,7 @@
   "private": true,
   "description": "Default themes for Yaak",
   "scripts": {
-    "build": "yaakcli build",
-    "dev": "yaakcli dev"
+    "build": "node init && yaakcli build",
+    "dev": "node init && yaakcli dev"
   }
 }

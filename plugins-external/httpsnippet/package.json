@@ -10,8 +10,8 @@
     "directory": "plugins-external/httpsnippet"
   },
   "scripts": {
-    "build": "yaakcli build",
-    "dev": "yaakcli dev"
+    "build": "node init && yaakcli build",
+    "dev": "node init && yaakcli dev"
   },
   "dependencies": {
     "@readme/httpsnippet": "^11.4.1"

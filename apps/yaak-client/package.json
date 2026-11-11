@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vp dev --force",
-    "build": "vp build",
+    "dev": "node init && vp dev --force",
+    "build": "node init && vp build",
     "lint": "tsc --noEmit"
   },
   "dependencies": {

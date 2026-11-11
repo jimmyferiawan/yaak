@@ -5,9 +5,9 @@
   "main": "index.ts",
   "scripts": {
     "bootstrap": "npm run build",
-    "build": "run-s build:*",
-    "build:pack": "node build-wasm.cjs",
-    "build:clean": "rimraf ./pkg/.gitignore"
+    "build": "node init && run-s build:*",
+    "build:pack": "node init && node build-wasm.cjs",
+    "build:clean": "node init && rimraf ./pkg/.gitignore"
   },
   "devDependencies": {
     "rimraf": "^6.1.2"

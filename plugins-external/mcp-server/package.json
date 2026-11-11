@@ -11,8 +11,8 @@
     "directory": "plugins-external/mcp-server"
   },
   "scripts": {
-    "build": "yaakcli build",
-    "dev": "yaakcli dev"
+    "build": "node init && yaakcli build",
+    "dev": "node init && yaakcli dev"
   },
   "dependencies": {
     "@hono/mcp": "^0.3.5",
